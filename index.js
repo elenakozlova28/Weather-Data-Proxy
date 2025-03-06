@@ -7,8 +7,6 @@ const axios = require('axios');
 const app = express();
 const PORT = 3000;
 
-
-
 // Replace with your actual OpenWeatherMap API key
 const OPENWEATHER_API_KEY = 'your_api_key_here';
 
