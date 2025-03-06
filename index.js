@@ -10,6 +10,9 @@ const PORT = 3000;
 // Replace with your actual OpenWeatherMap API key
 const OPENWEATHER_API_KEY = 'your_api_key_here';
 
+
+
+
 // Basic homepage
 app.get('/', (req, res) => {
     res.send('<h2>Weather API Proxy</h2><p>Use /weather?city=CityName to get weather data.</p>');
