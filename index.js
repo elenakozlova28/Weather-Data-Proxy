@@ -15,6 +15,8 @@ app.get('/', (req, res) => {
     res.send('<h2>Weather API Proxy</h2><p>Use /weather?city=CityName to get weather data.</p>');
 });
 
+
+
 // Weather endpoint (fetches data from OpenWeatherMap)
 app.get('/weather', async (req, res) => {
     const city = req.query.city;
